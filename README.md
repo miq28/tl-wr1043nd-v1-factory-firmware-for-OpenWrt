@@ -1,5 +1,6 @@
 This firmware shall be used to restore OpenWrt back to Tp-Link factory OS.
 The boot code has been stripped using the following command: 
+
 $ dd if=wr1043nv1_en_3_13_13_up_boot\(130428\).bin of=wr1043nd_v1_correct.bin skip=257 bs=512
 
 Firmware update
